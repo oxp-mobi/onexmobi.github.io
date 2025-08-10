@@ -23,7 +23,7 @@ import aiohttp
 from enum import Enum
 import hmac
 import hashlib
-import re
+import random
 
 # Configure structured logging
 structlog.configure(
